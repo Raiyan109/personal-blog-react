@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container .heading {
+    position: absolute;
+    left: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.container .contact {
+    position: absolute;
+    right: 25px;
+
+}
+
+.container .contact .link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+
+}
