@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.header p {
+    color: brown;
+    cursor: pointer;
+}
+
+.header p:hover {
+    color: rgb(95, 7, 7);
+}
+
+.hamburger {
+    width: 30px;
+    height: 30px;
+}
+
+/*------------------- 
+ media quaries 
+ --------------------*/
+/* --------------------
+ mobile devices 
+ -----------------------*/
+
+@media only screen and (max-width:688px) {}
+
+/* tablet devices */
+
+@media only screen and (min-width:688px) and (max-width:992px) {}
+
+/* large devices */
+@media only screen and (min-width:1024px) {
+    .hamburger {
+        display: none;
+    }
+}
