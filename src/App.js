@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="">
       <TopNav />
-      {/* <Header></Header> */}
+      <Header></Header>
     </div>
   );
 }
